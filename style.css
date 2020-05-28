@@ -61,10 +61,10 @@ body {
   height: 800px;
 }
 .wave1 {
-  /* animation: waterAnimation 2s linear infinite; */
+  animation: waterAnimation 2s linear infinite;
 }
 .wave2 {
-  /* animation: waterAnimationBack 2s linear infinite; */
+  animation: waterAnimationBack 2s linear infinite;
 }
 @keyframes waterAnimation {
   0% {
