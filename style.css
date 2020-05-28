@@ -9,45 +9,24 @@ body {
   width: 100vw;
   min-height: 100vh;
 }
-.shine {
-  position: absolute;
-  top: 23.5vh;
-  left: 37vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  width: 520px;
-  height: 520px;
-  z-index: 1;
-  /* overflow: hidden; */
-  /* box-shadow: inset -30px 0 50px -30px rgba(154, 236, 234, 0.8); */
-}
-.shine div {
-  position: relative;
-  width: 440px;
-  height: 500px;
-  border-right: 40px solid rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-}
 .glass {
   display: flex;
   justify-content: center;
   align-items: center;
   background: radial-gradient(
     circle,
-    rgba(106, 219, 217, 0) 65%,
-    rgba(154, 236, 234, 1) 75%
+    rgba(106, 219, 217, 0) 0%,
+    rgba(154, 236, 234, 0.5) 75%
   );
   border-radius: 50%;
-  width: 520px;
-  height: 520px;
+  width: 550px;
+  height: 550px;
 }
 .bowl {
   background: radial-gradient(
     circle,
     rgba(106, 219, 217, 0) 0%,
-    rgba(154, 236, 234, 0.8) 100%
+    rgba(154, 236, 234, 0.5) 100%
   );
   border-radius: 50%;
   width: 500px;
@@ -83,8 +62,12 @@ body {
   }
 }
 @media (max-width: 500px) {
-  .bowl {
+  .glass {
     width: 100vw;
     height: 100vw;
+  }
+  .bowl {
+    width: 90vw;
+    height: 90vw;
   }
 }
