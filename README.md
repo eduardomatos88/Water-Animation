@@ -11,3 +11,6 @@ Depois de conseguir desenhar as duas ondas entendi como funcionam as coordenadas
 
 ### Gradiente
 Nunca havia usado a tag def, e foi muito bom aprender como ela funciona, com certeza será útil em algum projeto.
+
+### Problemas
+A animação ficou com travamentos em quase todos os computadores e navegadores, entendo que não seja a melhor forma de desenhar essas animações, mas foi um ótimo aprendizado.
